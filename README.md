@@ -15,7 +15,7 @@ I may be able to respond to issues or handle pull requests for major bugs, but I
   - [Installing as a local package](#installing-as-a-local-package)
   - [Installing via Git](#installing-via-git)
   - [Setting up Git](#setting-up-git)
-* [Project Overview](#project-overiview)
+* [Project Overview](#project-overview)
   - [State Machines](#state-machines)
   - [2D Character Controller](#2d-character-controller)
   - [Containers](#containers)
@@ -163,13 +163,14 @@ There are some audio related helpers in [Audio](Runtime/Audio/). Check out
 [AudioPanel](Runtime/Audio/AudioPanel.cs) + [PanelPlayer](Runtime/Audio/PanelPlayer.cs).
 
 [GameObjectTracker](Runtime/Cameras/GameObjectTracker.cs) re-implements a basic version of unity's
-built-in constraint behaviours in terms of object containers.
+built-in [constraint behaviours](https://docs.unity3d.com/Manual/Constraints.html) in terms of object
+containers.
 
 There are some helpers for dealing with 2D 8-way directions (see 
 [EightwayDirection](Runtime/Eightway/EightwayDirection.cs)).
 
 There are some helpers for adding Scenes (as the `string` scene name) as fields with 
-`[SerializeField]`. See [SceneAttribute](Runtime/Scenes/SceneAttributes.cs).
+`[SerializeField]`. See [SceneAttribute](Runtime/Scenes/SceneAttribute.cs).
 
 ### Presets
 
