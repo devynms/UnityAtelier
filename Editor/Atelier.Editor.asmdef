@@ -1,0 +1,19 @@
+{
+    "name": "Atelier.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:12c2f595b19087140976144ba5fc4529",
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
