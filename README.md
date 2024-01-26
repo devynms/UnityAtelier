@@ -2,6 +2,16 @@
 
 Code shared between Auburn Atelier projects.
 
+If you have git installed on your machine, you can
+[follow the official unity instructions](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
+to add this as a package using the following url:
+```
+https://github.com/devynms/UnityAtelier.git#v0.1.0
+```
+
+For more details, follow the [Installation Instructions](#installation-instructions) below.
+
+
 ## Project Status
 
 This is a personal project, initially made public for the 2024 Cleveland Game Developers Game Jam.
@@ -75,6 +85,14 @@ installing a package using git.
 The Git URL you'll want can be found by clicking the green "< > Code" button near the top-right of
 main git repository web page. It should show up in a small grey box underneath the options "HTTPS",
 "SSH", and "GitHub CLI". Simply click the double-box icon top copy the URL to your clipboard.
+
+You can also [target a specific revision](https://docs.unity3d.com/Manual/upm-git.html#revision)
+with this system.
+
+This is the current revision, using an https link:
+```
+https://github.com/devynms/UnityAtelier.git#v0.1.0
+```
 
 If you haven't set up your local git installation to work with SSH, you can just use the HTTPS url.
 
